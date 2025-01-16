@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+}
+h1{
+  color:aliceblue;
+  text-align: center;
+}
+h3{
+  color:aliceblue;
+  text-align: center;
+}
+.same{
+  height:200px;
+  width: 200px;
+  border:2px solid white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  border-radius: 20%;
+}
+.cnt1{
+  display:flex;
+  justify-content: center;
+  gap:50px;
+}
+.cnt2{
+  display:flex;
+  justify-content: center;
+  gap:70px;
+  margin-top: 30px;
+}
+#one{
+  background-color: rgb(201, 97, 97);
+}
+#two{
+  background-color: rgb(62, 62, 116);
+}
+#three{
+  background-color: rgb(88, 133, 88);
+}
+#four{
+  background-color: rgb(212, 212, 102);
+}
+.flash{
+  background-color: rgb(42, 210, 210);
+}

@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMONSAYS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id = "main">
+  <h1>SIMON SAYS </h1>
+  <h3>Press Any key to start the game</h3>
+  <div class ="cnt1">
+    <div id = "one" class ="same" type ="button">
+    </div>
+    <div id = "two" class = "same" type ="button">
+    </div>
+  </div>
+  <div class ="cnt2">
+    <div id = "three" class ="same" type ="button">
+    </div>
+    <div id = "four" class = "same" type ="button">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Says</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      width: 100px;
+      height: 100px;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+    .green { background-color: green; }
+    .red { background-color: red; }
+    .blue { background-color: blue; }
+    .yellow { background-color: yellow; }
+    .btn.active {
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simon Says</h1>
+  <p>Repeat the sequence by clicking on the buttons!</p>
+  <div class="container">
+    <button class="btn green" id="green"></button>
+    <button class="btn red" id="red"></button>
+    <button class="btn blue" id="blue"></button>
+    <button class="btn yellow" id="yellow"></button>
+  </div>
+  <button id="start">Start Game</button>
+  <p id="message"></p>
+
+  <script src="simon-says.js"></script>
+</body>
+</html>
